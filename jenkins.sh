@@ -7,4 +7,6 @@ echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]" \
 
 sudo apt-get update
 
+sudo apt install fontconfig openjdk-17-jre -y
+
 sudo apt-get install jenkins -y
